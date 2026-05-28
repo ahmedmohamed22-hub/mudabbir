@@ -1111,7 +1111,6 @@ button {
 @media (max-width: 480px) {
   .header .user .search-icons {
     flex: 1;
-    justify-content: space-between;
   }
   .header .user .user-img img {
     width: 40px;
