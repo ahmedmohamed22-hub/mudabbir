@@ -752,7 +752,7 @@
   </div>
   <!-- end wrapper -->
   </div>
-  <nav class="bottom-nav" aria-label="التنقل الرئيسي">
+  <div class="bottom-nav">
     <ul class="d-flex">
       <li>
         <a href="#" class="d-flex col align-center active" data-nav="home"><i class="fa-solid fa-house"></i>
@@ -767,21 +767,7 @@
       <li><a href="#" class="d-flex col align-center" data-nav="more"><i class="fa-solid fa-ellipsis"></i>
           <span>المزيد</span></a></li>
     </ul>
-  </nav>
-  <script>
-    (function () {
-      var nav = document.querySelector('.bottom-nav');
-      if (!nav) return;
-      var links = nav.querySelectorAll('a');
-      links.forEach(function (link) {
-        link.addEventListener('click', function (e) {
-          e.preventDefault();
-          links.forEach(function (l) { l.classList.remove('active'); });
-          link.classList.add('active');
-        });
-      });
-    })();
-  </script>
+  </div>
 </body>
 
 </html>
